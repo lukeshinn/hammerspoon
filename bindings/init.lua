@@ -37,7 +37,7 @@ hs.hotkey.bind(hyper, "x", function()
 end)
 
 -- push window one screen right
-hs.hotkey.bind(hyper, "v", function()
+hs.hotkey.bind(hyper, "b", function()
   moveWindowToScreen("right")
 end)
 
