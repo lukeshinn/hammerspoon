@@ -26,8 +26,9 @@ function applyWorkLayout()
     {"Google Chrome", nil, middleScreen,   hs.layout.left50,   nil, nil},
     {"Adobe Photoshop CC 2018",  nil, rightScreen,   hs.layout.maximized,    nil, nil},
     {"Adobe Illustrator CC 2018",  nil, rightScreen,   hs.layout.maximized,    nil, nil},
-    {"iTerm2",        nil, rightScreen, hs.layout.right70,   nil, nil},
-    {"Slack",         nil, rightScreen,  hs.layout.right70, nil, nil},
+    {"iTerm2",        nil, rightScreen, hs.layout.right67,   nil, nil},
+    {"Finder",         nil, rightScreen,  hs.layout.right50, nil, nil},
+    {"Slack",         nil, rightScreen,  hs.layout.right67, nil, nil},
   }
 
   hs.layout.apply(workLayout)
